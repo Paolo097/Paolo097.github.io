@@ -58,7 +58,7 @@ document.querySelector("#formulario").addEventListener('submit', evento => {
         alert("Ingrese todos los datos")
         evento.preventDefault()
     } else {
-        alert("Su mensaje se ha enviado correctamente, en breve le estaré respondiendo")
+        alert("Su mensaje se ha enviado correctamente, en breve le estaré respondiendo.")
     }
 })
 
