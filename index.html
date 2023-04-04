@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>PM Developer</title>
+</head>
+
+<body>
+    <!-- SECCION INICIO-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/PM/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="selecionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                        <!--<li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>-->
+                            <li><a href="#habilidades" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Icono del menu responsive-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!-- Iconos de las redes sociales-->
+                    <div class="redes">
+                        <a href="https://wa.me/+5491124632776?text=Hola%20Soy%20Paolo%20deje%20su%20consulta%20y%20en%20breve%20le%20estaré%20respondiendo:"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/paolo-medina91"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Paolo097"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Paolo Medina</span>, Developer</h2>
+                <p class="descripcion">Mi objetivo principal es desarrollarme profesionalmente y evolucionar en mi
+                    sector, de modo que busco oportunidades que me permitan hacerlo, al tiempo que trataré de alinearme
+                    completamente con los objetivos de la empresa.</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="Paolo.jpg" alt="La imagen no se ha cargado correctamente">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Paolo Medina</span></h2>
+            <h3>Developer</h3>
+            <p>Estudiante de Tecnicatura en Desarrollo de Software. Orientado al desarrollo de proyectos desafiantes,
+                alineado estratégicamente a las necesidades de la empresa que me contrate</p>
+            <p>Me encantaría poder formar parte de una empresa en la que pueda aplicar todos mis conocimientos y, al
+                mismo tiempo, que me permita desarrollarme profesionalmente.</p>
+            <a href="Cv Paolo.pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS 
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, saepe quo. Architecto eveniet
+                    distinctio ullam rem officia necessitatibus quo quia.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, saepe quo. Architecto eveniet
+                    distinctio ullam rem officia necessitatibus quo quia.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, saepe quo. Architecto eveniet
+                    distinctio ullam rem officia necessitatibus quo quia.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, saepe quo. Architecto eveniet
+                    distinctio ullam rem officia necessitatibus quo quia.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, saepe quo. Architecto eveniet
+                    distinctio ullam rem officia necessitatibus quo quia.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, saepe quo. Architecto eveniet
+                    distinctio ullam rem officia necessitatibus quo quia.</p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- SECCION HABILIDADES -->
+    <section id="habilidades">
+        <div class="contenedor-skills" id="skills">
+            <h3>HABILIDADES</h3>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>C#</p>
+                    <span class="porcentaje">95%</span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso1"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Html & Css</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+                <div class="barra">
+                    <div id="js" class="barra-progreso2"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Java</p>
+                    <span class="porcentaje">80%</span>
+                </div>
+                <div class="barra">
+                    <div id="bd" class="barra-progreso3"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>JavaScript</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+                <div class="barra">
+                    <div id="ps" class="barra-progreso4"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Python</p>
+                    <span class="porcentaje">85%</span>
+                </div>
+                <div class="barra">
+                    <div id="py" class="barra-progreso5"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>SQL SERVER</p>
+                    <span class="porcentaje">95%</span>
+                </div>
+                <div class="barra">
+                    <div id="jv" class="barra-progreso6"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Balanza.jpg" id="balanza" alt="La imagen no se ha cargado correctamente">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Calculadora de Índices Corporales</p>
+                    <p>Hecho 100% en Python</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Pc.avif" alt="La imagen no se ha cargado correctamente">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Próximamente... Loading 99%</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Pc.avif" alt="La imagen no se ha cargado correctamente">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Próximamente... Loading 99%</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Pc.avif" alt="La imagen no se ha cargado correctamente">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Próximamente... Loading 99%</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Pc.avif" alt="La imagen no se ha cargado correctamente">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Próximamente... Loading 99%</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Pc.avif" alt="La imagen no se ha cargado correctamente">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Próximamente... Loading 99%</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Pc.avif" alt="La imagen no se ha cargado correctamente">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Próximamente... Loading 99%</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Pc.avif" alt="La imagen no se ha cargado correctamente">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Próximamente... Loading 99%</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Pc.avif" alt="La imagen no se ha cargado correctamente">
+                <div class="info">
+                    <h4>Descripción del Proyecto</h4>
+                    <p>Próximamente... Loading 99%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contáctanos ahora</h3>
+        <div class="contenedor-form">
+            <form id="formulario" action="https://formsubmit.co/medinapaolo55@gmail.com" method="POST">
+                <div class="fila mitad">
+                    <input type="text" id="Nombre_Completo" name="Nombre_Completo" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" id="Email" name="Email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" id="Tema" name="Tema" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Tú Mensaje..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar"/>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="https://wa.me/+5491124632776?text=Hola%20Soy%20Paolo%20deje%20su%20consulta%20y%20en%20breve%20le%20estaré%20respondiendo:"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/paolo-medina91"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Paolo097"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
