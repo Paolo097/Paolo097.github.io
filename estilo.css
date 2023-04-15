@@ -321,44 +321,58 @@ html {
 
 .contenedor-skills .skill .barra .barra-progreso1{
     background-color: #fff;
-    width: 90%;
+    width: 85%;
     height: 6px;
     animation: progreso1 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso2{
     background-color: #fff;
-    width: 90%;
+    width: 95%;
     height: 6px;
     animation: progreso2 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso3{
     background-color: #fff;
-    width: 95%;
+    width: 90%;
     height: 6px;
     animation: progreso3 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso4{
     background-color: #fff;
-    width: 95%;
+    width: 80%;
     height: 6px;
     animation: progreso4 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso5{
     background-color: #fff;
-    width: 85%;
+    width: 90%;
     height: 6px;
     animation: progreso5 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso6{
     background-color: #fff;
-    width: 80%;
+    width: 85%;
     height: 6px;
     animation: progreso6 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso7{
+    background-color: #fff;
+    width: 90%;
+    height: 6px;
+    animation: progreso7 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progreso8{
+    background-color: #fff;
+    width: 95%;
+    height: 6px;
+    animation: progreso8 2s forwards;
 }
 
 /* Creamos las animaciones de las barras */
@@ -368,7 +382,7 @@ html {
         width: 0;
     }
     100%{
-        width: 95%;
+        width: 85%;
     }
 }
 
@@ -377,7 +391,7 @@ html {
         width: 0;
     }
     100%{
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -386,7 +400,7 @@ html {
         width: 0;
     }
     100%{
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -395,7 +409,7 @@ html {
         width: 0;
     }
     100%{
-        width: 90%;
+        width: 80%;
     }
 }
 
@@ -404,11 +418,29 @@ html {
         width: 0;
     }
     100%{
-        width: 85%;
+        width: 90%;
     }
 }
 
 @keyframes progreso6{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes progreso7{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes progreso8{
     0%{
         width: 0;
     }
